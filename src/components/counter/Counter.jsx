@@ -9,15 +9,11 @@ export default class Counter extends Component {
     };
   }
   IncreaseCounter() {
-    // console.log(this.setState());
-
     this.setState((per) => {
       return { counter: per.counter + 1 };
     });
   }
   DecreaseCounter() {
-    // console.log("remove");
-
     this.setState((per) => {
       return { counter: per.counter <= 0 ? 0 : per.counter - 1};
     });
