@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter-container {
+  background: rgb(37, 137, 219);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  color: white;
+}
+.counter-text {
+  padding-bottom: 4rem;
+}
+.counter-text__title {
+  font-size: 52px;
+}
+.counter-text__desc {
+  font-size: 32px;
+  margin-top: 1rem;
+}
+.counter-btns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.counter-btns__btn-increase button{
+  background: rgb(19, 170, 82);
+}
+.counter-btns__btn-decrease button{
+    background: rgb(170, 37, 19);
+}
+.btn {
+  font-size: 22px;
+  color: white;
+  outline: none;
+  border: none;
+  padding: .5rem 2rem;
+  cursor: pointer;
+}
